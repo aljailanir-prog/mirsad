@@ -1,0 +1,30 @@
+name: Policy Agent
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "0 2,14 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python policy_agent.py
+      - run: |
+          git config user.name  "mirsad-bot"
+          git config user.email "mirsad-bot@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain posts.json)" ]]; then
+            git add posts.json
+            git commit -m "policy: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
