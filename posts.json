@@ -1,114 +1,24 @@
 [
   {
-    "id": "seed-policy-001",
+    "id": "aa2639022ac8",
     "beat": "policy",
-    "title_en": "EU Digital Services Act bans manipulative design choices online",
-    "title_ar": "قانون الخدمات الرقمية الأوروبي يحظر الأنماط التصميمية الخادعة",
-    "summary_en": "The European Union's Digital Services Act, in force across the bloc, explicitly prohibits very large online platforms from using deceptive design patterns — interface tricks that nudge users into choices they would not otherwise make. The provision covers pre-selected privacy settings, confusing cancellation flows, and visually weighted choice architecture. Enforcement now sits with the European Commission, which can fine non-compliance up to six percent of global turnover. It is the first cross-border regulation of choice architecture at platform scale.",
-    "summary_ar": "يحظر قانون الخدمات الرقمية الأوروبي صراحةً على المنصات الإلكترونية الكبرى استخدام الأنماط التصميمية الخادعة التي تدفع المستخدمين إلى خيارات ما كانوا ليتخذوها لولا ذلك. يشمل الحظر الإعدادات الافتراضية للخصوصية، وعمليات الإلغاء المربكة، وهندسة الخيار البصرية. تتولى المفوضية الأوروبية التنفيذ، وقد تصل الغرامات إلى ستة في المئة من الإيرادات العالمية.",
-    "mechanisms": ["deceptive_pattern", "default", "choice_architecture", "disclosure"],
-    "source_url": "https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/digital-services-act_en",
-    "source_name": "European Commission",
-    "countries": ["European Union"],
-    "published_at": "2026-05-10",
-    "discovered_at": "2026-05-12",
-    "verdict": "First time choice architecture is regulated at the platform layer — not just at the consent layer.",
-    "flag": ""
-  },
-  {
-    "id": "seed-policy-002",
-    "beat": "policy",
-    "title_en": "UK Behavioural Insights Team publishes new evidence on text reminders for cancer screening",
-    "title_ar": "فريق الرؤى السلوكية في المملكة المتحدة ينشر أدلة جديدة على رسائل تذكير الفحص",
-    "summary_en": "A field trial run by the UK Behavioural Insights Team across NHS trusts found that personalised SMS reminders incorporating the recipient's first name and a specific appointment window raised cervical screening uptake by between four and seven percentage points over a generic reminder. The trial covered more than ninety thousand women aged twenty-five to sixty-four. The team has now published the full protocol and message wording so any health system can adapt the design without bespoke consultancy.",
-    "summary_ar": "أظهرت تجربة ميدانية أن رسائل التذكير المخصصة التي تتضمن الاسم الأول للمتلقية ونافذة موعد محددة رفعت معدل الإقبال على فحص عنق الرحم بين أربع وسبع نقاط مئوية مقارنة برسالة عامة، وذلك على عينة من أكثر من تسعين ألف امرأة بين عمر الخامسة والعشرين والرابعة والستين.",
-    "mechanisms": ["reminder", "personalisation", "salience"],
-    "source_url": "https://www.bi.team/publications/",
-    "source_name": "Behavioural Insights Team",
-    "countries": ["United Kingdom"],
-    "published_at": "2026-05-08",
-    "discovered_at": "2026-05-12",
-    "verdict": "Personalised SMS still earning its keep two decades into the nudge era.",
-    "flag": ""
-  },
-  {
-    "id": "seed-policy-003",
-    "beat": "policy",
-    "title_en": "Singapore introduces default opt-in for organ donation register at licence renewal",
-    "title_ar": "سنغافورة تجعل التسجيل في سجل التبرع بالأعضاء افتراضياً عند تجديد رخصة القيادة",
-    "summary_en": "Singapore's Ministry of Health has revised the driving-licence renewal flow so that residents are enrolled in the national organ donation register by default. People who wish not to participate must tick a clear opt-out box, which carries no friction beyond a single click. Early operational data suggests register coverage has climbed roughly twelve percent in the first quarter, although no causal evaluation has yet been published.",
-    "summary_ar": "أعادت وزارة الصحة في سنغافورة تصميم تدفق تجديد رخص القيادة بحيث يُسجَّل المقيمون افتراضياً في السجل الوطني للتبرع بالأعضاء، ويتوفر خيار الانسحاب بنقرة واحدة. تشير البيانات التشغيلية المبكرة إلى ارتفاع تغطية السجل بنحو اثني عشر في المئة خلال الربع الأول، دون تقييم سببي منشور بعد.",
-    "mechanisms": ["default", "choice_architecture"],
-    "source_url": "https://www.moh.gov.sg/",
-    "source_name": "Ministry of Health Singapore",
-    "countries": ["Singapore"],
-    "published_at": "2026-05-06",
-    "discovered_at": "2026-05-13",
-    "verdict": "Classic default switch, now in a context where Asian opt-in baselines were unusually low.",
-    "flag": ""
-  },
-  {
-    "id": "seed-product-001",
-    "beat": "product",
-    "title_en": "Instagram defaults teen accounts to private and tightens DM permissions",
-    "title_ar": "إنستغرام يجعل حسابات المراهقين خاصة افتراضياً ويشدد أذونات الرسائل",
-    "summary_en": "Meta has rolled out new defaults globally: any new Instagram account belonging to a user under eighteen now begins as private, with direct messages from non-followers disabled by default. Changing those settings requires several taps and a parental account in some jurisdictions. The move codifies a default that the platform had resisted for years, despite consistent evidence that defaults shape adolescent privacy behaviour more reliably than education campaigns.",
-    "summary_ar": "أعلنت ميتا أن أي حساب إنستغرام جديد لمستخدم دون الثامنة عشرة سيبدأ خاصاً افتراضياً، مع تعطيل الرسائل المباشرة من غير المتابعين. يتطلب تغيير هذه الإعدادات عدة خطوات وحساب ولي أمر في بعض الدول. تُرسّخ هذه الخطوة افتراضاً قاومه إنستغرام سنوات رغم الأدلة على أن الافتراضات تشكّل سلوك المراهقين بشكل أكثر اتساقاً من حملات التوعية.",
-    "mechanisms": ["default", "friction_added", "choice_architecture"],
-    "source_url": "https://about.instagram.com/safety",
-    "source_name": "Meta",
-    "countries": [],
-    "published_at": "2026-05-09",
-    "discovered_at": "2026-05-13",
-    "verdict": "The friction is added in the right direction this time.",
-    "flag": "elegant"
-  },
-  {
-    "id": "seed-product-002",
-    "beat": "product",
-    "title_en": "Streaming services keep auto-renew defaults despite FTC click-to-cancel rule",
-    "title_ar": "خدمات البث تُبقي على التجديد التلقائي رغم قواعد \"الإلغاء بنقرة\" في الولايات المتحدة",
-    "summary_en": "Audits of major US streaming platforms show most still surface cancellation only after a chain of confirmation screens, retention offers, and survey prompts, in apparent tension with the spirit of the Federal Trade Commission's click-to-cancel rule. Cancellation interfaces remain visually demoted relative to sign-up flows. The pattern is a textbook example of asymmetric friction: removing it on the way in, adding it on the way out.",
-    "summary_ar": "تكشف عمليات تدقيق لمنصات البث الأميركية الكبرى أن إلغاء الاشتراك ما زال يتطلب سلسلة من شاشات التأكيد وعروض الاحتفاظ، في توتر ظاهر مع روح قاعدة \"الإلغاء بنقرة\" الصادرة عن لجنة التجارة الفيدرالية. هذا مثال نموذجي على الاحتكاك غير المتماثل: تُزال العقبات عند الدخول وتُضاف عند الخروج.",
-    "mechanisms": ["sludge", "friction_added", "deceptive_pattern"],
-    "source_url": "https://www.ftc.gov/news-events/topics/consumer-protection",
-    "source_name": "FTC consumer protection",
-    "countries": ["United States"],
-    "published_at": "2026-05-11",
-    "discovered_at": "2026-05-14",
-    "verdict": "Rule on the books, friction still on the screen.",
-    "flag": "predatory"
-  },
-  {
-    "id": "seed-product-003",
-    "beat": "product",
-    "title_en": "Duolingo introduces 'soft streak' that survives one missed day per week",
-    "title_ar": "دوولينغو تطلق \"سلسلة مرنة\" تحتمل يوماً واحداً ضائعاً أسبوعياً",
-    "summary_en": "Duolingo has added an opt-in soft-streak mechanic that protects a user's streak when they miss a single day in a seven-day window. Existing research suggests strict streaks drive engagement but can flip into anxiety and avoidance after a break. The new design preserves the commitment device while reducing the cliff-edge effect — a behavioural compromise other habit apps had been reluctant to ship.",
-    "summary_ar": "أضافت دوولينغو آلية اختيارية تُسمى \"السلسلة المرنة\" تحمي سلسلة استمرار المستخدم عند تفويت يوم واحد ضمن نافذة سبعة أيام. تُشير الأدلة إلى أن السلاسل الصارمة تدفع الانخراط لكنها قد تتحول إلى قلق وتجنّب بعد الانقطاع. يحافظ التصميم الجديد على أداة الالتزام مع تقليل أثر \"الحافة الحادة\".",
-    "mechanisms": ["commitment_device", "gamification", "feedback_loop"],
-    "source_url": "https://blog.duolingo.com/",
-    "source_name": "Duolingo blog",
-    "countries": [],
-    "published_at": "2026-05-12",
-    "discovered_at": "2026-05-14",
-    "verdict": "A rare streak design that asks 'and then what?' before shipping.",
-    "flag": "elegant"
-  },
-  {
-    "id": "seed-evidence-001",
-    "beat": "evidence",
-    "title_en": "Field trial finds plain-language tax letters lift on-time payment by nine points",
-    "title_ar": "تجربة ميدانية: رسائل الضرائب بلغة مبسّطة ترفع السداد في الوقت المحدد تسع نقاط",
-    "summary_en": "A pre-registered field trial run with a European tax authority replaced legalese reminders with plain-language letters that named the recipient, stated the exact amount owed, and used a single-sentence call to action. On-time payment rose nine percentage points across roughly forty thousand small businesses. The effect was largest for businesses receiving their first notice. Authors caution that habituation may erode the effect if all communications are rewritten the same way.",
-    "summary_ar": "تجربة ميدانية مع هيئة ضرائب أوروبية استبدلت رسائل التذكير المعقدة برسائل بلغة بسيطة تذكر اسم المتلقي والمبلغ المستحق وعبارة دعوة واضحة. ارتفع السداد في الوقت المحدد بتسع نقاط مئوية عبر نحو أربعين ألف منشأة صغيرة، وكان الأثر أكبر بين المنشآت التي تتلقى أول إشعار. حذر المؤلفون من أن تكرار الأسلوب قد يُضعف الأثر بمرور الوقت.",
-    "mechanisms": ["salience", "personalisation", "friction_removed"],
-    "source_url": "https://www.nber.org/papers/w32500",
-    "source_name": "NBER Working Paper",
-    "countries": ["European Union"],
-    "published_at": "2026-05-05",
-    "discovered_at": "2026-05-15",
-    "verdict": "Plain language still beating clever framing in compliance contexts.",
+    "title_en": "Stress management exercise improves women's STEM exam performance",
+    "summary_en": "Ceibal's Behavioral Insights Lab in Uruguay implemented a stress management exercise administered during high-stakes STEM exams to reduce stereotype threat and cognitive load among women students. The intervention leveraged anxiety reduction techniques to close gender performance gaps. By addressing psychological barriers rather than content knowledge, the programme helped women perform comparably to male peers on identical assessments.",
+    "title_ar": "تمرين إدارة الإجهاد يحسن أداء النساء في امتحانات العلوم والتكنولوجيا",
+    "summary_ar": "نفذت مختبر البصائر السلوكية التابع لـ Ceibal في أوروغواي تمرين إدارة إجهاد أثناء امتحانات العلوم والتكنولوجيا عالية الرهان لتقليل التهديد النمطي والحمل المعرفي بين الطالبات. استفادت التدخلات من تقنيات تقليل القلق لتضييق الفجوات في الأداء بين الجنسين. من خلال معالجة الحواجز النفسية بدلاً من معرفة المحتوى، ساعدت البرامج النساء على الأداء بشكل مماثل لنظرائهن الذكور في الامتحانات المتطابقة.",
+    "mechanisms": [
+      "salience",
+      "identity_priming",
+      "implementation_intention"
+    ],
+    "source_url": "https://www.behavioraleconomics.com/stress-less-achieve-more-boosting-womens-stem-performance/",
+    "source_name": "BehavioralEconomics.com",
+    "countries": [
+      "Uruguay"
+    ],
+    "published_at": "2024-08-27",
+    "discovered_at": "2026-05-17",
+    "verdict": "In-exam stress intervention narrows gender STEM performance gap through cognitive reframing.",
     "flag": ""
   },
   {
@@ -118,7 +28,11 @@
     "title_ar": "تجربة عشوائية: مهلة التراجع تُقلل الندم على قرارات التمويل الإلكترونية",
     "summary_en": "Researchers ran a randomised controlled trial with an online consumer-credit platform that introduced a twenty-four-hour cooling-off period after loan acceptance. Sixteen percent of consumers in the treatment arm cancelled within the window. Three months later, self-reported regret was meaningfully lower than in the no-cooling-off control. The paper argues for cooling-off periods as a low-cost choice-architecture tool wherever consumer decisions are emotionally loaded and time-pressured.",
     "summary_ar": "أجرى باحثون تجربة عشوائية على منصة تمويل استهلاكي إلكترونية أتاحت مهلة تراجع لأربع وعشرين ساعة بعد قبول القرض، فألغى ستة عشر في المئة من المستخدمين القرض خلال المهلة، وانخفض شعور الندم بعد ثلاثة أشهر مقارنة بمجموعة الضبط. يُوصي البحث بمهلة التراجع كأداة منخفضة الكلفة لهندسة الخيار حين تكون القرارات الاستهلاكية مشحونة عاطفياً ومضغوطة زمنياً.",
-    "mechanisms": ["friction_added", "commitment_device", "choice_architecture"],
+    "mechanisms": [
+      "friction_added",
+      "commitment_device",
+      "choice_architecture"
+    ],
     "source_url": "https://arxiv.org/abs/2405.12345",
     "source_name": "arXiv preprint",
     "countries": [],
@@ -134,13 +48,169 @@
     "title_ar": "تدقيق احتكاكي لطلبات المساعدات يخفض وقت الإنجاز بثمانٍ وعشرين دقيقة",
     "summary_en": "A team of behavioural scientists conducted a structured sludge audit of social-assistance applications in a US state. Removing duplicate fields, eliminating unnecessary attachments, and rewriting two confusing sections reduced average completion time by twenty-eight minutes and lifted submission completion rates by eleven percentage points among first-time applicants. The authors release the audit protocol as an open template, including the time-and-motion measurement script.",
     "summary_ar": "أجرى فريق من علماء السلوك تدقيقاً منظماً للاحتكاك الإداري لطلبات المساعدات الاجتماعية في إحدى ولايات الولايات المتحدة. أدى حذف الحقول المكررة وإلغاء المرفقات غير الضرورية وإعادة صياغة قسمين مربكين إلى تقليل وقت الإنجاز بثمانٍ وعشرين دقيقة، وارتفاع معدل إكمال التقديم بإحدى عشرة نقطة مئوية بين المتقدمين الجدد.",
-    "mechanisms": ["sludge", "friction_removed", "salience"],
+    "mechanisms": [
+      "sludge",
+      "friction_removed",
+      "salience"
+    ],
     "source_url": "https://behavioralpolicy.org/",
     "source_name": "Behavioral Science & Policy",
-    "countries": ["United States"],
+    "countries": [
+      "United States"
+    ],
     "published_at": "2026-05-02",
     "discovered_at": "2026-05-16",
     "verdict": "Removing administrative burden as a behavioural intervention in itself.",
+    "flag": ""
+  },
+  {
+    "id": "seed-evidence-001",
+    "beat": "evidence",
+    "title_en": "Field trial finds plain-language tax letters lift on-time payment by nine points",
+    "title_ar": "تجربة ميدانية: رسائل الضرائب بلغة مبسّطة ترفع السداد في الوقت المحدد تسع نقاط",
+    "summary_en": "A pre-registered field trial run with a European tax authority replaced legalese reminders with plain-language letters that named the recipient, stated the exact amount owed, and used a single-sentence call to action. On-time payment rose nine percentage points across roughly forty thousand small businesses. The effect was largest for businesses receiving their first notice. Authors caution that habituation may erode the effect if all communications are rewritten the same way.",
+    "summary_ar": "تجربة ميدانية مع هيئة ضرائب أوروبية استبدلت رسائل التذكير المعقدة برسائل بلغة بسيطة تذكر اسم المتلقي والمبلغ المستحق وعبارة دعوة واضحة. ارتفع السداد في الوقت المحدد بتسع نقاط مئوية عبر نحو أربعين ألف منشأة صغيرة، وكان الأثر أكبر بين المنشآت التي تتلقى أول إشعار. حذر المؤلفون من أن تكرار الأسلوب قد يُضعف الأثر بمرور الوقت.",
+    "mechanisms": [
+      "salience",
+      "personalisation",
+      "friction_removed"
+    ],
+    "source_url": "https://www.nber.org/papers/w32500",
+    "source_name": "NBER Working Paper",
+    "countries": [
+      "European Union"
+    ],
+    "published_at": "2026-05-05",
+    "discovered_at": "2026-05-15",
+    "verdict": "Plain language still beating clever framing in compliance contexts.",
+    "flag": ""
+  },
+  {
+    "id": "seed-product-002",
+    "beat": "product",
+    "title_en": "Streaming services keep auto-renew defaults despite FTC click-to-cancel rule",
+    "title_ar": "خدمات البث تُبقي على التجديد التلقائي رغم قواعد \"الإلغاء بنقرة\" في الولايات المتحدة",
+    "summary_en": "Audits of major US streaming platforms show most still surface cancellation only after a chain of confirmation screens, retention offers, and survey prompts, in apparent tension with the spirit of the Federal Trade Commission's click-to-cancel rule. Cancellation interfaces remain visually demoted relative to sign-up flows. The pattern is a textbook example of asymmetric friction: removing it on the way in, adding it on the way out.",
+    "summary_ar": "تكشف عمليات تدقيق لمنصات البث الأميركية الكبرى أن إلغاء الاشتراك ما زال يتطلب سلسلة من شاشات التأكيد وعروض الاحتفاظ، في توتر ظاهر مع روح قاعدة \"الإلغاء بنقرة\" الصادرة عن لجنة التجارة الفيدرالية. هذا مثال نموذجي على الاحتكاك غير المتماثل: تُزال العقبات عند الدخول وتُضاف عند الخروج.",
+    "mechanisms": [
+      "sludge",
+      "friction_added",
+      "deceptive_pattern"
+    ],
+    "source_url": "https://www.ftc.gov/news-events/topics/consumer-protection",
+    "source_name": "FTC consumer protection",
+    "countries": [
+      "United States"
+    ],
+    "published_at": "2026-05-11",
+    "discovered_at": "2026-05-14",
+    "verdict": "Rule on the books, friction still on the screen.",
+    "flag": "predatory"
+  },
+  {
+    "id": "seed-product-003",
+    "beat": "product",
+    "title_en": "Duolingo introduces 'soft streak' that survives one missed day per week",
+    "title_ar": "دوولينغو تطلق \"سلسلة مرنة\" تحتمل يوماً واحداً ضائعاً أسبوعياً",
+    "summary_en": "Duolingo has added an opt-in soft-streak mechanic that protects a user's streak when they miss a single day in a seven-day window. Existing research suggests strict streaks drive engagement but can flip into anxiety and avoidance after a break. The new design preserves the commitment device while reducing the cliff-edge effect — a behavioural compromise other habit apps had been reluctant to ship.",
+    "summary_ar": "أضافت دوولينغو آلية اختيارية تُسمى \"السلسلة المرنة\" تحمي سلسلة استمرار المستخدم عند تفويت يوم واحد ضمن نافذة سبعة أيام. تُشير الأدلة إلى أن السلاسل الصارمة تدفع الانخراط لكنها قد تتحول إلى قلق وتجنّب بعد الانقطاع. يحافظ التصميم الجديد على أداة الالتزام مع تقليل أثر \"الحافة الحادة\".",
+    "mechanisms": [
+      "commitment_device",
+      "gamification",
+      "feedback_loop"
+    ],
+    "source_url": "https://blog.duolingo.com/",
+    "source_name": "Duolingo blog",
+    "countries": [],
+    "published_at": "2026-05-12",
+    "discovered_at": "2026-05-14",
+    "verdict": "A rare streak design that asks 'and then what?' before shipping.",
+    "flag": "elegant"
+  },
+  {
+    "id": "seed-policy-003",
+    "beat": "policy",
+    "title_en": "Singapore introduces default opt-in for organ donation register at licence renewal",
+    "title_ar": "سنغافورة تجعل التسجيل في سجل التبرع بالأعضاء افتراضياً عند تجديد رخصة القيادة",
+    "summary_en": "Singapore's Ministry of Health has revised the driving-licence renewal flow so that residents are enrolled in the national organ donation register by default. People who wish not to participate must tick a clear opt-out box, which carries no friction beyond a single click. Early operational data suggests register coverage has climbed roughly twelve percent in the first quarter, although no causal evaluation has yet been published.",
+    "summary_ar": "أعادت وزارة الصحة في سنغافورة تصميم تدفق تجديد رخص القيادة بحيث يُسجَّل المقيمون افتراضياً في السجل الوطني للتبرع بالأعضاء، ويتوفر خيار الانسحاب بنقرة واحدة. تشير البيانات التشغيلية المبكرة إلى ارتفاع تغطية السجل بنحو اثني عشر في المئة خلال الربع الأول، دون تقييم سببي منشور بعد.",
+    "mechanisms": [
+      "default",
+      "choice_architecture"
+    ],
+    "source_url": "https://www.moh.gov.sg/",
+    "source_name": "Ministry of Health Singapore",
+    "countries": [
+      "Singapore"
+    ],
+    "published_at": "2026-05-06",
+    "discovered_at": "2026-05-13",
+    "verdict": "Classic default switch, now in a context where Asian opt-in baselines were unusually low.",
+    "flag": ""
+  },
+  {
+    "id": "seed-product-001",
+    "beat": "product",
+    "title_en": "Instagram defaults teen accounts to private and tightens DM permissions",
+    "title_ar": "إنستغرام يجعل حسابات المراهقين خاصة افتراضياً ويشدد أذونات الرسائل",
+    "summary_en": "Meta has rolled out new defaults globally: any new Instagram account belonging to a user under eighteen now begins as private, with direct messages from non-followers disabled by default. Changing those settings requires several taps and a parental account in some jurisdictions. The move codifies a default that the platform had resisted for years, despite consistent evidence that defaults shape adolescent privacy behaviour more reliably than education campaigns.",
+    "summary_ar": "أعلنت ميتا أن أي حساب إنستغرام جديد لمستخدم دون الثامنة عشرة سيبدأ خاصاً افتراضياً، مع تعطيل الرسائل المباشرة من غير المتابعين. يتطلب تغيير هذه الإعدادات عدة خطوات وحساب ولي أمر في بعض الدول. تُرسّخ هذه الخطوة افتراضاً قاومه إنستغرام سنوات رغم الأدلة على أن الافتراضات تشكّل سلوك المراهقين بشكل أكثر اتساقاً من حملات التوعية.",
+    "mechanisms": [
+      "default",
+      "friction_added",
+      "choice_architecture"
+    ],
+    "source_url": "https://about.instagram.com/safety",
+    "source_name": "Meta",
+    "countries": [],
+    "published_at": "2026-05-09",
+    "discovered_at": "2026-05-13",
+    "verdict": "The friction is added in the right direction this time.",
+    "flag": "elegant"
+  },
+  {
+    "id": "seed-policy-001",
+    "beat": "policy",
+    "title_en": "EU Digital Services Act bans manipulative design choices online",
+    "title_ar": "قانون الخدمات الرقمية الأوروبي يحظر الأنماط التصميمية الخادعة",
+    "summary_en": "The European Union's Digital Services Act, in force across the bloc, explicitly prohibits very large online platforms from using deceptive design patterns — interface tricks that nudge users into choices they would not otherwise make. The provision covers pre-selected privacy settings, confusing cancellation flows, and visually weighted choice architecture. Enforcement now sits with the European Commission, which can fine non-compliance up to six percent of global turnover. It is the first cross-border regulation of choice architecture at platform scale.",
+    "summary_ar": "يحظر قانون الخدمات الرقمية الأوروبي صراحةً على المنصات الإلكترونية الكبرى استخدام الأنماط التصميمية الخادعة التي تدفع المستخدمين إلى خيارات ما كانوا ليتخذوها لولا ذلك. يشمل الحظر الإعدادات الافتراضية للخصوصية، وعمليات الإلغاء المربكة، وهندسة الخيار البصرية. تتولى المفوضية الأوروبية التنفيذ، وقد تصل الغرامات إلى ستة في المئة من الإيرادات العالمية.",
+    "mechanisms": [
+      "deceptive_pattern",
+      "default",
+      "choice_architecture",
+      "disclosure"
+    ],
+    "source_url": "https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/digital-services-act_en",
+    "source_name": "European Commission",
+    "countries": [
+      "European Union"
+    ],
+    "published_at": "2026-05-10",
+    "discovered_at": "2026-05-12",
+    "verdict": "First time choice architecture is regulated at the platform layer — not just at the consent layer.",
+    "flag": ""
+  },
+  {
+    "id": "seed-policy-002",
+    "beat": "policy",
+    "title_en": "UK Behavioural Insights Team publishes new evidence on text reminders for cancer screening",
+    "title_ar": "فريق الرؤى السلوكية في المملكة المتحدة ينشر أدلة جديدة على رسائل تذكير الفحص",
+    "summary_en": "A field trial run by the UK Behavioural Insights Team across NHS trusts found that personalised SMS reminders incorporating the recipient's first name and a specific appointment window raised cervical screening uptake by between four and seven percentage points over a generic reminder. The trial covered more than ninety thousand women aged twenty-five to sixty-four. The team has now published the full protocol and message wording so any health system can adapt the design without bespoke consultancy.",
+    "summary_ar": "أظهرت تجربة ميدانية أن رسائل التذكير المخصصة التي تتضمن الاسم الأول للمتلقية ونافذة موعد محددة رفعت معدل الإقبال على فحص عنق الرحم بين أربع وسبع نقاط مئوية مقارنة برسالة عامة، وذلك على عينة من أكثر من تسعين ألف امرأة بين عمر الخامسة والعشرين والرابعة والستين.",
+    "mechanisms": [
+      "reminder",
+      "personalisation",
+      "salience"
+    ],
+    "source_url": "https://www.bi.team/publications/",
+    "source_name": "Behavioural Insights Team",
+    "countries": [
+      "United Kingdom"
+    ],
+    "published_at": "2026-05-08",
+    "discovered_at": "2026-05-12",
+    "verdict": "Personalised SMS still earning its keep two decades into the nudge era.",
     "flag": ""
   }
 ]
