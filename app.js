@@ -28,8 +28,7 @@ const state = { posts: [], beat: "all", query: "" };
 async function loadPosts() {
   // Try a few candidate paths — depending on whether the site is served
   // from /site/ or from the repo root, the relative path to data differs.
-  const candidates = ["../data/posts.json", "data/posts.json", "./data/posts.json"];
-  for (const path of candidates) {
+const candidates = ["posts.json", "../data/posts.json", "data/posts.json", "./data/posts.json"];  for (const path of candidates) {
     try {
       const r = await fetch(path, { cache: "no-store" });
       if (!r.ok) continue;
