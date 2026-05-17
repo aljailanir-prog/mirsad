@@ -332,3 +332,30 @@ h1 .ar {
   h1 { font-size: 24px; }
   .card { padding: 16px; }
 }
+
+.tag-ar {
+  margin: 6px 0 0;
+  color: var(--ink-soft);
+  font-family: 'Noto Naskh Arabic', serif;
+  font-size: 15px;
+  max-width: 560px;
+  line-height: 1.7;
+}
+.ar-desc {
+  margin: 6px 0 0;
+  font-family: 'Noto Naskh Arabic', serif;
+  font-size: 14px;
+  color: var(--ink-soft);
+  line-height: 1.75;
+}
+.ar-foot {
+  font-family: 'Noto Naskh Arabic', serif;
+  font-size: 14px;
+  color: var(--ink-soft);
+  margin: 4px 0;
+}
+.ar-small {
+  font-family: 'Noto Naskh Arabic', serif;
+  font-size: 12px;
+  color: var(--ink-fade);
+}
