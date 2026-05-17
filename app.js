@@ -101,6 +101,7 @@ function render() {
     node.querySelector(".title").textContent = p.title_en || "";
     node.querySelector(".title-ar").textContent = p.title_ar || "";
     node.querySelector(".summary").textContent = p.summary_en || "";
+    node.querySelector(".summary-ar").textContent = p.summary_ar || "";
     node.querySelector(".verdict").textContent = p.verdict || "";
 
     const mechs = node.querySelector(".mechanisms");
