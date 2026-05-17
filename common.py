@@ -27,9 +27,9 @@ from anthropic import Anthropic
 
 # ----- paths ---------------------------------------------------------------
 
-ROOT = Path(__file__).resolve().parent.parent
-DATA_DIR = ROOT / "data"
-POSTS_FILE = DATA_DIR / "posts.json"
+ROOT = Path(__file__).resolve().parent
+DATA_DIR = ROOT
+POSTS_FILE = ROOT / "posts.json"
 MAX_POSTS = 500  # cap the feed; older posts roll off
 
 # ----- taxonomy ------------------------------------------------------------
