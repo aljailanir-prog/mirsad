@@ -359,3 +359,11 @@ h1 .ar {
   font-size: 12px;
   color: var(--ink-fade);
 }
+.card .summary-ar {
+  margin: 0 0 10px;
+  color: var(--ink-soft);
+  font-family: 'Noto Naskh Arabic', serif;
+  font-size: 14px;
+  line-height: 1.85;
+}
+.card .summary-ar:empty { display: none; }
